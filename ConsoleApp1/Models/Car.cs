@@ -21,7 +21,7 @@ namespace CarRent.Models
             Brand = brand;
             Model = model;
             Year = year;
-            IsAvailable = true;
+            this.IsAvailable = true;
             PricePerDay = pricePerDay;
         }
                 public void DisplayInfo()
